@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WebServiceVollery 2 Insert ds</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Add Poduct</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="catetory">
+        <item>Select Category</item>
+        <item>Men</item>
+        <item>Women</item>
+        <item>Kid</item>
+        <item>Electronic</item>
+        <item>Grocery</item>
+
+    </string-array>
+</resources>

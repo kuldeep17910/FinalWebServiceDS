@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="10dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cake"
+            android:id="@+id/myimage"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kuldeep singh"
+            android:id="@+id/myname"></TextView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "WebServiceVollery 2 Insert ds"
